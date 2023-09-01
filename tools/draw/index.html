@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>抽签 By Yurik</title>
+    <title>抽签 Draw</title>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -93,9 +93,6 @@
             <i class="mdui-icon material-icons">navigate_next</i>
           </button>
         </div>
-        <p id="alert" style="font-size: 1.25em">
-          (抽奖可能会出现重复，周末有空修)
-        </p>
       </div>
     </div>
 
@@ -193,13 +190,9 @@
 
         num = Math.floor(document.getElementById("num").value);
         if (num > list.length) {
-          document.getElementById("alert").innerHTML =
-            "输入的数字大于列表长度 " + num + " / " + list.length;
           num = list.length;
           document.getElementById("num").value = num;
         } else {
-          document.getElementById("alert").innerHTML =
-            "(抽奖可能会出现重复，周末有空修)";
         }
         str = "";
 
