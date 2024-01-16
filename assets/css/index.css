@@ -45,3 +45,18 @@
     height: 3rem;
     border-radius: 0.75rem;
 }
+
+/* 删除边框 */
+.border-unset {
+    border: unset !important;
+}
+
+/* 悬停缩放动画 */
+.hover-zoom {
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+}
