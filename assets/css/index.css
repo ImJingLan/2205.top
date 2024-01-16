@@ -58,7 +58,8 @@ body {
 
 /* 悬停缩放动画 */
 .hover-zoom {
-    transition: all 0.3s ease-in-out;
+    transition: transform 400ms cubic-bezier(0.4, 0, 0.25, 1) 0ms,
+        opacity 1s cubic-bezier(0.4, 0, 0.25, 1) 0ms;
 }
 
 .hover-zoom:hover {
