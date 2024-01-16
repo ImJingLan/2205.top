@@ -81,6 +81,11 @@
     overflow: hidden;
 }
 
+.hero-img {
+    border-top-left-radius: var(--custom-card-border-radius) !important;
+    border-top-right-radius: var(--custom-card-border-radius) !important;
+}
+
 /*次要新闻独立样式*/
 .secondary .news_title {
     font-size: 24px;
