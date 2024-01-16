@@ -5,12 +5,13 @@ body {
 }
 
 .navbar-origin {
-    background-color: transparent !important;
+    background-color: rgba(255, 255, 255, 1) !important;
 
     transition: all 0.4s ease;
 }
 
 .navbar-scrolled {
+    background-color: rgba(255, 255, 255, 0) !important;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
